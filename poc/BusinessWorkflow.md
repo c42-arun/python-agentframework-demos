@@ -1,4 +1,4 @@
-```
+```mermaid
 sequenceDiagram
     autonumber
     participant BS as Broker Support
@@ -34,5 +34,4 @@ sequenceDiagram
     B-->>BS: Scanned signed copy by email
     BS->>LS: Set up broker
     Note over B,BS: Physical copy follows by post
-    ```
-    
+```
